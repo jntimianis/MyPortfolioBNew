@@ -1,0 +1,34 @@
+
+.educationTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.educationImg {
+    margin-left: 200px;
+    float: left;
+    border-radius: 1rem;
+}
+
+.content1 {
+    display:flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.content2 {
+    display:flex;
+    justify-content: center;
+    gap: 500px;
+}
+
+.content3 {
+    margin-right: 63px;
+}
+
+.content4 {
+    margin-right: 40px;
+}

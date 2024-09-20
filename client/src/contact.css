@@ -1,27 +1,37 @@
 #ffp{
- 
-
-
-    
     max-width: 50rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    
-   
+}
+
+.contactTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    margin-left: 850px;
 }
 
 label{
     font-size:xx-large;
 }
 
+#myMessage {
+    height: 100px;
+}
+
 input{
     font-size: larger;
+    background-color: bisque;
+    color: black;
 }
 
 .submit{
     font-size:x-large;
+    color: black;
 }
 
 p,a{

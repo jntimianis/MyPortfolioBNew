@@ -1,8 +1,4 @@
-#works {
-    margin: 0 auto;
-    min-height: calc(100vh - 4rem);
-    width: 100vw;
-    max-width: 50rem;
+#projects {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +8,7 @@
 }
 
 
-.worksTitle{
+.projectTitle{
     margin: 1rem 0;
     font-size: 3rem;
     font-weight: 600;
@@ -20,33 +16,66 @@
     margin-bottom: 1.5rem;
 }
 
-.worksDesc {
+.projectPara {
+    font-weight: 300;
+    font-size: 2rem;
+    width: 800px;
+    padding-bottom: 25px;
+}
+
+.projectTitles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.projectTitle1 {
+    padding: 1rem;
+    margin-right: 0px;
+}
+
+.projectTitle2 {
+    padding: 1rem;
+    margin-right: 100px;
+}
+
+.projectTitle3 {
+    padding: 1rem;
+    margin-right: 115px;
+}
+
+.projectContent {
+    display: flex;
+    gap: 200px;
+    margin-top: -200px;
+}
+
+.projectDesc {
     font-weight: 300;
     font-size: 2rem;
 }
- .worksImgs{
+
+ .projectImgs{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: -100px;
     height: 500px;
     width: 300px;
 }
 
-.worksImg{
+.projectImg{
     object-fit: cover;
     height: 20rem;
-    margin: 8.5rem
-}
-.workBtn {
-    padding: 0.5rem 2.5rem;
-    border: none;
+    margin: 8.5rem;
     border-radius: 2rem;
-    background: white;
-    font-size: 1rem;
+    border: 5px gainsboro solid;
+    margin-top: -50px;
 }
 
 @media screen and (max-width:585px){
     .worksImg{
     height: 50vw;
-}
+    }
 }

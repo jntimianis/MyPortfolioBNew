@@ -1,37 +1,42 @@
-import project1 from '../src/assets/project1.png';
-import project2 from '../src/assets/project2.jpg';
-import project3 from '../src/assets/project3.jpg';
-import project4 from '../src/assets/project4.jpg';
-import project5 from '../src/assets/project5.jpg';
-import project6 from '../src/assets/project6.jpg';
+import srs from '../src/assets/srs.png';
+import mosquito from '../src/assets/mosquito_img.jpg';
+import ecommerce from '../src/assets/ecommerce_img.png';
 import { Link } from 'react-router-dom';
 import '../src/index.css'
 import '../src/project.css'
 export default function Project() {
      return <>
-     
-     <section id="works">
-         
-          <h2 className="worksTitle">My Projects</h2>
-          <span className="worksDesc">I take pride in paying attention to the smallest details and making sure my work is pixel perfect/ 
-          I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.</span> 
-          <div className="worksImgs">
-                   <img src={project1} alt="project1" className="worksImg" />
-                   <img src={project2} alt="project2" className="worksImg" />
-                   <img src={project3} alt="project3" className="worksImg" />
-                   <img src={project4} alt="project4" className="worksImg" />
-                   <img src={project5} alt="project5" className="worksImg" />
-                   <img src={project6} alt="project6" className="worksImg" />
-                  
-               
-               </div>
-
-          <button className="workBtn">See More</button>
-                  
-                  
+     <section id="projects">
+          <p className="projectTitle">My Projects</p>
+          <span className="projectPara">Here, you’ll find a collection of my work in technology,
+                from innovative coding solutions to cutting-edge software development. Each project
+                 demonstrates my skills, problem-solving abilities, and passion for tech.</span>
+          <div className="projectTitles">
+               <p className="projectTitle1">Software Requirements Specifications Document</p>
+               <p className="projectTitle2">Mosquito Squasher Game</p>
+               <p className="projectTitle3">eCommerce Database</p>
+          </div>
+          <div className="projectImgs">
+                   <img src={srs} alt="srs" className="projectImg" />
+                   <img src={mosquito} alt="mosquito_game" className="projectImg" />
+                   <img src={ecommerce} alt="ecommerce" className="projectImg" />
+          </div>
+          <div className="projectContent">
+               <p className="projectDesc">
+                    Developed an SRS document for an application designed to improve efficiency for students and professors in managing due dates.
+                    Collaborated with team members to research and gather software requirements.
+                    Utilized MS Visio to create UML diagrams, including use case diagrams and class diagrams.
+               </p>
+               <p className="projectDesc">
+                    Created a simple mosquito squasher, browser-based game designed to provide an interactive user experience.
+                    Designed a visually appealing layout to keep users engaged
+               </p>
+               <p className="projectDesc">
+                    Developed an eCommerce Database that makes it easier to find products and keep track of them.
+                    Created entity-relationship diagrams to highlight the database schema and relationships.
+                    Displayed proficiency by demonstrating additional relevant queries,
+               </p>
+          </div>  
      </section>
-    
-
      </>
-    }
-    
+}

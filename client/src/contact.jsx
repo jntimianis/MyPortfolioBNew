@@ -1,11 +1,13 @@
 // MyPortfolioBNew - Jordan Timianis - 301352262 - September 20th
+import React from 'react';
+import { Link } from 'react-router-dom';
 import '../src/contact.css'
 export default function Contact() {
      return (
      <>
      <section id="contactForm">
      <h2 className="contactTitle">Contact</h2>
-     <form id="ffp">
+          <form id="ffp">
 				<label htmlFor="myFName"> First Name * </label>
 				<input type="text" id="myFName" name="myFName" required="required" autoFocus /> <br /> <br />
 				
@@ -19,7 +21,7 @@ export default function Contact() {
                     <label htmlFor="myMessage"> Message (Optional) </label>
 				<input type="text" id="myMessage" name="myMessage" /> <br /> <br />
 
-				<input type="submit" className="submit" value="Submit" /> <br />
+				<Link to="/"><input type="submit" className="submit" value="Submit" /> <br /></Link>
 		</form>
           <p><i>Text me at: <strong>905-665-1490</strong></i></p>
           <p>Email: jtimiani@my.centennialcollege.ca</p>
@@ -27,4 +29,3 @@ export default function Contact() {
      </>
      );
 }
-    

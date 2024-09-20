@@ -19,7 +19,8 @@ export default function About() {
                      Through applied projects, I have honed my skills in technologies such as Java, HTML/CSS,
                       SQL, and C#, as well as gaining experience with Agile practices, debugging, technical
                        documentation and software systems design. </span>
-          <p>Here is a link to my resume: </p><a href="https://centennialcollegeedu-my.sharepoint.com/:b:/g/personal/jtimiani_my_centennialcollege_ca/EUi8Wfp8oBNDrU6DFmHN0ggBxBhiQjndfyGJHHZO9dhWCw?e=HevhWT" target="_blank">Click Here</a>
+          <p>Here is a link to my resume: </p><a href="https://centennialcollegeedu-my.sharepoint.com/:b:/g/personal/jtimiani_my_centennialcollege_ca/EUi8Wfp8oBNDrU6DFmHN0ggBxBhiQjndfyGJHHZO9dhWCw?e=HevhWT" target="_blank">Resume</a>
+          <p>Here is a link to my GitHub account: </p><a href="https://github.com/jntimianis" target="_blank">GitHub</a>
           <div className="skillBar">
                <img src={sql} alt="SQL" className="skillBarImg1" />
                <div className="skillBarText">

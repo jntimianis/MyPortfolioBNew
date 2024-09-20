@@ -1,3 +1,4 @@
+// MyPortfolioBNew - Jordan Timianis - 301352262 - September 20th
 import '../src/education.css'
 import centennial from '../src/assets/centennial_img.png';
 

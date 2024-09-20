@@ -1,3 +1,4 @@
+// MyPortfolioBNew - Jordan Timianis - 301352262 - September 20th
 import React from 'react';
 import { Link } from 'react-router-dom';
 import orange_logo from '../src/assets/orange_img.png';

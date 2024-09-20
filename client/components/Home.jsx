@@ -1,3 +1,4 @@
+// MyPortfolioBNew - Jordan Timianis - 301352262 - September 20th
 import me from '../src/assets/me_img.jpg';
 import { Link } from 'react-router-dom';
 import '../src/index.css'

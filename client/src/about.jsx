@@ -1,3 +1,4 @@
+// MyPortfolioBNew - Jordan Timianis - 301352262 - September 20th
 import sql from '../src/assets/sql_img.png';
 import python from '../src/assets/python_img.png';
 import csharp from '../src/assets/csharp_img.png';

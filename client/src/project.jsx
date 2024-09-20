@@ -1,3 +1,4 @@
+// MyPortfolioBNew - Jordan Timianis - 301352262 - September 20th
 import srs from '../src/assets/srs.png';
 import mosquito from '../src/assets/mosquito_img.jpg';
 import ecommerce from '../src/assets/ecommerce_img.png';

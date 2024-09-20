@@ -13,7 +13,7 @@ export default function Home() {
                <p className="introTitle">Backend Developer/Data Analyst</p>
                <p className="introPara">
                     I'm excited to pursue a career as both a backend 
-                    developer and a data analyst because I’m passionate about harnessing
+                    developer and a data analyst because I'm passionate about harnessing
                     technology to solve complex problems and uncover insights. As a backend
                     developer, I look forward to designing and optimizing systems that power
                     applications and services, ensuring they run smoothly and efficiently.

@@ -9,7 +9,7 @@ export default function Project() {
      return <>
      <section id="projects">
           <p className="projectTitle">My Projects</p>
-          <span className="projectPara">Here, you’ll find a collection of my work in technology,
+          <span className="projectPara">Here, you'll find a collection of my work in technology,
                 from innovative coding solutions to cutting-edge software development. Each project
                  demonstrates my skills, problem-solving abilities, and passion for tech.</span>
           <div className="projectTitles">

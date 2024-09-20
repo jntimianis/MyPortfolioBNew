@@ -5,6 +5,7 @@ import orange_logo from '../src/assets/orange_img.png';
 export default function Layout() {
     return (
     <>
+    <section id="nav">
         <div className="heading">
             <img src={orange_logo}alt="logo" className="heading_logo1" width="100px" height="100px"/>
             <h1>My Portfolio</h1>
@@ -16,6 +17,7 @@ export default function Layout() {
         </nav>
         <br/>
         <hr />
+    </section>
     </>
     );
 }

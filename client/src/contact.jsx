@@ -3,6 +3,7 @@ import '../src/contact.css'
 export default function Contact() {
      return (
      <>
+     <section id="contactForm">
      <h2 className="contactTitle">Contact</h2>
      <form id="ffp">
 		
@@ -26,6 +27,7 @@ export default function Contact() {
 		</form>
           <p><i>Text me at: <strong>905-665-1490</strong></i></p>
           <p>Email: jtimiani@my.centennialcollege.ca</p>
+     </section>
      </>
      );
 }

@@ -5,6 +5,7 @@ import centennial from '../src/assets/centennial_img.png';
 export default function Education() {
      return (
      <>
+     <section id="education">
        <div>
                <p className="educationTitle">Education</p>
                <div className="educationContent">
@@ -24,6 +25,7 @@ export default function Education() {
                <p>| Client-Side Web Development || Software Requirements Engineering || Unix/Linux Operating Systems |</p>
                <p>| Java Programming || Advanced Database Concepts || Software System Designs|</p>
           </div>
+     </section>
      </>
      );
 }
